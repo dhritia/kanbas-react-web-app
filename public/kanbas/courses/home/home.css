@@ -1,0 +1,158 @@
+.wd-kanbas-nav {
+    height: 100%;
+    width: 80px;
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    background-color: black; 
+    text-decoration: none;
+    padding-left: 0;
+    padding-top: 0;
+}
+.wd-kanbas-nav img{
+    width: 60px;
+    height: 60px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wd-kanbas-nav-sel {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(206, 2, 2);
+    display: block;
+    background-color: white;
+    font-family: Arial;
+}
+.wd-kanbas-nav-unsel {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(206, 2, 2);
+    display: block;
+    background-color: black;
+    font-family: Arial;
+    text-decoration: none;
+}
+.wd-account {
+    margin-left: 80px;
+    position: fixed; 
+    text-decoration: none;
+    padding-left: 25px;
+    padding-top: 15px;
+    width: 100%;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+.wd-account nav{
+    display: inline-block;
+    text-decoration: none;
+    font-family: arial;
+    padding-left: 70px;
+    font-size: 30px;
+}
+.wd-account nav a{
+    text-decoration: none;
+    color: rgb(206, 2, 2);
+}
+.wd-course-nav {
+    margin-left: 80px;
+    margin-top: 100px;
+    margin-right: 290px;
+    width: 190px;
+    text-decoration: none;
+    padding-left: 25px;
+}
+.wd-course-nav-sel {
+    border-left: solid;
+    border-color: black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    text-align: left;
+    font-size: 17px;
+    color: black;
+    display: block;
+    font-family: Arial;
+}
+.wd-course-nav-unsel {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: left;
+    color: rgb(206, 2, 2);
+    display: block;
+    font-family: Arial;
+    text-decoration: none;
+}
+.wd-modules {
+    margin-left: 270px;
+    margin-top: 100px;
+    width: 850px;
+    top: 0;
+    text-decoration: none;
+    padding-left: 25px;
+    padding-top: 10px;
+    font-family: helvetica;
+    position: absolute;
+}
+.wd-modules ul {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 850px;
+}
+.wd-modules ul li a{
+    text-decoration: none;
+    color: rgb(206, 2, 2);
+}
+.wd-right-nav {
+    margin-left: 1130px;
+    margin-top: 100px;
+    top: 0;
+    text-decoration: none;
+    padding-left: 25px;
+    padding-top: 10px;
+    font-family: helvetica;
+    position: absolute;
+}
+.wd-right-nav ul{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.wd-right-nav ul li a{
+    text-decoration: none;
+    font-family: helvetica;
+    color: black;
+}
+.wd-right-nav2 a{
+    text-decoration: none;
+    font-family: helvetica;
+    color: rgb(206, 2, 2);
+}
+.wd-right-nav2 ul li a{
+    text-decoration: none;
+    font-family: helvetica;
+    color: rgb(206, 2, 2);
+}
