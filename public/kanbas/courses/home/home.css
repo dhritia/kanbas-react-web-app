@@ -50,7 +50,7 @@
 }
 .wd-account {
     margin-left: 80px;
-    position: fixed; 
+    position: relative; 
     text-decoration: none;
     padding-left: 25px;
     padding-top: 15px;
@@ -116,7 +116,7 @@
     padding-left: 25px;
     padding-top: 10px;
     font-family: helvetica;
-    position: absolute;
+    position: relative;
 }
 .wd-modules ul {
     padding-top: 15px;
@@ -135,7 +135,7 @@
     padding-left: 25px;
     padding-top: 10px;
     font-family: helvetica;
-    position: absolute;
+    position: relative;
 }
 .wd-right-nav ul{
     padding-top: 10px;

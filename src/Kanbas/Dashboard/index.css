@@ -1,0 +1,20 @@
+.wd-dashboard h1 {
+    padding-left: 10px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-size: 50px;
+    color: #4e4a4a;
+}
+.wd-dashboard h3 {
+    padding-left: 10px;
+    font-family: Helvetica;
+    font-style: normal;
+    color: #4e4a4a;
+}
+.wd-card {
+    width: 260px;
+    text-decoration: none;
+}
+.wd-card div h6{
+    color: rgb(55, 103, 200);
+}

@@ -1,0 +1,21 @@
+.wd-course-top-bar {
+    color: rgb(167, 4, 4);
+    font-family: helvetica;
+}
+
+.wd-course-top-bar h1{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding-left: 15px;
+    font-size: 35px;
+}
+
+.wd-course-top-bar h2{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding-left: 15px;
+    font-size: 35px;
+    color: #4e4a4a;
+}
