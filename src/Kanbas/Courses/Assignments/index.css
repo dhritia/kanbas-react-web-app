@@ -14,3 +14,7 @@
 .wd-button {
     margin: 2px;
 }
+.wd-title {
+    text-decoration: none;
+    color: black;
+}

@@ -1,4 +1,3 @@
-import db from "../../Kanbas/Database";
 import { Navigate, Route, Routes, useParams, useLocation } from "react-router-dom";
 import CourseNavigation from "./CourseNavigation";
 import Modules from "./Modules";
@@ -9,11 +8,11 @@ import Grades from "./Grades";
 import './index.css';
 import {FaBars}  from "react-icons/fa";
 
-function Courses() {
+function Courses({ courses } ) {
   const { courseId } = useParams();
   const {pathname} = useLocation();
-  const [empty, kanbas, courses, id, screen] = pathname.split("/");
-  const course = db.courses.find((course) => course._id === courseId);
+  const [empty, b, c, d, screen] = pathname.split("/");
+  const course = courses.find((course) => course._id === courseId);
   return (
     <div>
         <div className="wd-course-top-bar">
