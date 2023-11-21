@@ -9,6 +9,7 @@ import './index.css';
 import {FaBars}  from "react-icons/fa";
 import { useState, useEffect } from "react";
 import axios from "axios";
+const API_BASE = process.env.REACT_APP_API_BASE;
 
 function Courses() {
 const { courseId } = useParams();
