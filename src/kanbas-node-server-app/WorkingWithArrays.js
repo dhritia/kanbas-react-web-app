@@ -3,7 +3,7 @@ import axios from "axios";
 const API_BASE = process.env.LAB_BASE;
 function WorkingWithArrays() {
   const [errorMessage, setErrorMessage] = useState(null);
-  const API = `${LAB_BASE}/a5/todos`;
+  const API = `${API_BASE}/a5/todos`;
   const [todo, setTodo] = useState({
     id: 1,
     title: "New Task",
