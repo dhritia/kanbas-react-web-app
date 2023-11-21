@@ -2,12 +2,14 @@ import EncodingParametersInURLs from "../../kanbas-node-server-app/EncodingParam
 import SimpleAPIExamples from "../../kanbas-node-server-app/SimpleAPIExamples";
 import WorkingWithArrays from "../../kanbas-node-server-app/WorkingWithArrays";
 import WorkingWithObjects from "../../kanbas-node-server-app/WorkingWithObjects";
+const API_BASE = process.env.LAB_BASE;
+const URL = `${API_BASE}/a5/welcome`;
 function Assignment5() {
     return (
       <div>
         <h1>Assignment 5</h1>
         <div className="list-group">
-          <a href="http://localhost:4000/a5/welcome"
+          <a href={{URL}}
              className="list-group-item">
             Welcome
           </a>
