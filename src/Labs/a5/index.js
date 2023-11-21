@@ -4,6 +4,7 @@ import WorkingWithArrays from "../../kanbas-node-server-app/WorkingWithArrays";
 import WorkingWithObjects from "../../kanbas-node-server-app/WorkingWithObjects";
 const API_BASE = process.env.LAB_BASE;
 const URL = `${API_BASE}/a5/welcome`;
+console.log(URL);
 function Assignment5() {
     return (
       <div>
