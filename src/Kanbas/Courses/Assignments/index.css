@@ -1,0 +1,20 @@
+.wd-item {
+    border-left-color: green;
+    border-left-width: 4px;
+}
+.wd-color {
+    color: rgb(167, 4, 4);
+    display: inline-block;
+    padding-right: 3px;
+}
+.wd-input {
+    width: 380px; 
+    display: inline-block;
+}
+.wd-button {
+    margin: 2px;
+}
+.wd-title {
+    text-decoration: none;
+    color: black;
+}

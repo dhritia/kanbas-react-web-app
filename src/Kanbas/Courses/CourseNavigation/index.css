@@ -1,0 +1,17 @@
+.wd-course-nav {
+    width: 190px;
+    padding-left: 25px;
+}
+.wd-course-nav a {
+    font-family: helvetica;
+    text-decoration: none;
+    padding: 5px;
+    color: rgb(167, 4, 4);
+    display: block;
+}
+.wd-course-nav a.active {
+    color: black;
+    border-left: solid;
+    border-color: black;
+    text-decoration: none;
+}

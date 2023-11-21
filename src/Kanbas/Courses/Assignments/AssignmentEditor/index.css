@@ -1,0 +1,10 @@
+.wd-row {
+    padding-bottom: 5px;
+}
+.wd-row div h6 {
+    text-align: right;
+}
+.wd-button {
+    text-align: center;
+    text-decoration: none;
+}
