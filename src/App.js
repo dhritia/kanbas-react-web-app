@@ -1,3 +1,4 @@
+import "dotenv/config";
 import 'bootstrap/dist/css/bootstrap.css';
 import Labs from "./Labs";
 import HelloWorld from "./Labs/a3/HelloWorld";
