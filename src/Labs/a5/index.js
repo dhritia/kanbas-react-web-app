@@ -2,7 +2,7 @@ import EncodingParametersInURLs from "../../kanbas-node-server-app/EncodingParam
 import SimpleAPIExamples from "../../kanbas-node-server-app/SimpleAPIExamples";
 import WorkingWithArrays from "../../kanbas-node-server-app/WorkingWithArrays";
 import WorkingWithObjects from "../../kanbas-node-server-app/WorkingWithObjects";
-const API_BASE = process.env.LAB_BASE;
+const API_BASE = process.env.REACT_APP_LAB_BASE;
 const URL = `${API_BASE}/a5/welcome`;
 console.log(URL);
 function Assignment5() {
