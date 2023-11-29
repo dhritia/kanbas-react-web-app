@@ -10,7 +10,7 @@ function Assignment5() {
       <div>
         <h1>Assignment 5</h1>
         <div className="list-group">
-          <a href={`$URL`}
+          <a href={`${URL}`}
              className="list-group-item">
             Welcome
           </a>
