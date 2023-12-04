@@ -12,7 +12,7 @@ function Project() {
       </div>
       <div className="col-10">
         <Routes>
-          <Route path="/" element={<Navigate to="/project/users/signin" />} />
+          <Route path="/" element={<Signin />} />
           <Route path="/signin" element={<Signin />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/account" element={<Account />} />
